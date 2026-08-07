@@ -1,0 +1,31 @@
+# Dataset (too large for Git)
+dataset/*
+!dataset/cardboard/.gitkeep
+!dataset/glass/.gitkeep
+!dataset/metal/.gitkeep
+
+# Trained models
+# (kept for deployment — .h5 model file is needed by app.py on Streamlit Cloud)
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Environment variables
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code settings
+.vscode/
